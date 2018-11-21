@@ -12,9 +12,13 @@
 /* ==== overwrite bootstrap standard ==== */
 @import url('overwrite.css');
 @import url('animate.css');
+@import url('https://fonts.googleapis.com/css?family=Share+Tech');
 /*==========================================================================
   General
   ========================================================================== */
+  *{
+	font-family: 'Share Tech', sans-serif;
+  }
 body {
 	color:#777;
 	background: #f7f7f7;
@@ -414,7 +418,7 @@ section.section {
   width: 100%;
   height: 60vh;
   position: relative;
-	background: url(../img/intro-background.jpg) top center;
+	background: url(../img/back.gif) top center;
   background-size: cover;
 }
 
@@ -439,6 +443,8 @@ section.section {
   flex-direction: column;
   text-align: center;
 	padding: 0 15px;
+	font-family: 'Share Tech', sans-serif;
+	
 }
 
 .intro-content  h2 {
@@ -446,6 +452,7 @@ section.section {
   margin-bottom: 30px;
   font-size: 64px;
   font-weight: 700;
+  font-family: 'Share Tech', sans-serif;
 }
 
 .intro-content  h3 {
@@ -453,6 +460,7 @@ section.section {
   margin-bottom: 30px;
   font-size: 26px;
   font-weight: 500;
+  font-family: 'Share Tech', sans-serif;
 }
 
 @media (max-width: 767px) {
@@ -474,12 +482,12 @@ section.section {
   transition: 0.5s;
   margin: 10px;
   color: #fff;
-	background: #85b0be;
+	background:rgb(172, 135, 23);
 }
 
 .btn-get-started:hover {
 	color: #fff;
-	background: #699aaa;
+	background:rgb(207, 192, 61);
 }
 
 /*===========================
