@@ -4,66 +4,66 @@
 */
 
 a:hover {
-	color: #95cbdd;
+	color: rgb(172, 135, 23);;
 }
 
 /* menu */
 .nav>li>a:hover {
-	color: #95cbdd;
+	color: rgb(172, 135, 23);;
 }
 
 .navbar .navbar-nav > .active > a {
-	color: #95cbdd;
-	border-bottom: 4px solid #85b0be;
+	color: rgb(172, 135, 23);;
+	border-bottom: 4px solid rgb(172, 135, 23);;
 }
 
 /* flexslider */
 .flex-control-paging li a {
-	background: #85b0be;
+	background: rgb(172, 135, 23);;
 }
 
 
 .testimonial span.author a {
-	color: #95cbdd;
+	color: rgb(172, 135, 23);;
 }
 
 /* --- icon box hover --- */
 .hi-icon-effect-5 .hi-icon {
-	color: #85b0be;
-	box-shadow: 0 0 0 4px #85b0be;
+	color: rgb(172, 135, 23);;
+	box-shadow: 0 0 0 4px rgb(172, 135, 23);;
 }
 .no-touch .hi-icon-effect-5 .hi-icon:hover {
-	background: #85b0be;
-	box-shadow: 0 0 0 8px  #95cbdd;
+	background: rgb(172, 135, 23);;
+	box-shadow: 0 0 0 8px  rgb(172, 135, 23);;
 }
 
 
 /* portfolio */
 .portfolio-item .portfolio-desc {
-	background: #85b0be;
+	background: rgb(172, 135, 23);;
 }
 
 /* btn */
 .btn-theme {
-  background: #95cbdd;
+  background: rgb(172, 135, 23);;
 }
 .btn-theme:hover,.btn-theme:focus,.btn-theme:active{
-  background: #85b0be;
+  background: rgb(172, 135, 23);;
 }
 .btn-cta,.btn-cta.btn-lg {
-  background: #85b0be;
-  border-color: #95cbdd;
+  background: rgb(172, 135, 23);
+  border-color: rgb(172, 135, 23);
 }
 
 .btn-cta:focus,.btn-cta:active{
-   border-color: #85b0be;
+   border-color: rgb(172, 135, 23);;
 }
 
 /* footer */
 .social-circle li a {
-	background:#85b0be;
+	background:rgb(172, 135, 23);;
 }
 
 a.scrollup{
-	background:#85b0be;
+	background:rgb(172, 135, 23);;
 }
