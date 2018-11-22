@@ -18,11 +18,21 @@
 
 @import url('overwrite.css');
 @import url('animate.css');
+<<<<<<< HEAD
 
 /*==========================================================================
   General
   ========================================================================== */
 
+=======
+@import url('https://fonts.googleapis.com/css?family=Share+Tech');
+/*==========================================================================
+  General
+  ========================================================================== */
+  *{
+	font-family: 'Share Tech', sans-serif;
+  }
+>>>>>>> 9b6d5a02fe16cac6364ab56b7fc4cc2f425878ce
 body {
     color: #777;
     background: #f7f7f7;
@@ -475,6 +485,7 @@ section.section {
  --- Parallax ---
 ============================= */
 
+<<<<<<< HEAD
 #parallax1 {
     background-image: url(../img/parallax/img1.jpg);
 }
@@ -483,6 +494,12 @@ section.section {
     background-image: url(../img/parallax/img3.jpg);
 }
 
+=======
+#parallax1{
+	background-image: url(../img/parallax/img.gif);
+}
+
+>>>>>>> 9b6d5a02fe16cac6364ab56b7fc4cc2f425878ce
 
 /*===========================
   --- Header & menu ----
@@ -563,11 +580,19 @@ section.section {
 =========================== */
 
 #intro {
+<<<<<<< HEAD
     width: 100%;
     height: 60vh;
     position: relative;
     background: url(../img/intro-background.jpg) top center;
     background-size: cover;
+=======
+  width: 100%;
+  height: 60vh;
+  position: relative;
+	background: url(../img/back.gif) top center;
+  background-size: cover;
+>>>>>>> 9b6d5a02fe16cac6364ab56b7fc4cc2f425878ce
 }
 
 @media (min-width: 1024px) {
@@ -577,6 +602,7 @@ section.section {
 }
 
 .intro-content {
+<<<<<<< HEAD
     background: rgba(0, 0, 0, 0.4);
     position: absolute;
     position: absolute;
@@ -605,6 +631,40 @@ section.section {
     margin-bottom: 30px;
     font-size: 26px;
     font-weight: 500;
+=======
+	background: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+	padding: 0 15px;
+	font-family: 'Share Tech', sans-serif;
+	
+}
+
+.intro-content  h2 {
+  color: #fff;
+  margin-bottom: 30px;
+  font-size: 64px;
+  font-weight: 700;
+  font-family: 'Share Tech', sans-serif;
+}
+
+.intro-content  h3 {
+  color: #fff;
+  margin-bottom: 30px;
+  font-size: 26px;
+  font-weight: 500;
+  font-family: 'Share Tech', sans-serif;
+>>>>>>> 9b6d5a02fe16cac6364ab56b7fc4cc2f425878ce
 }
 
 @media (max-width: 767px) {
@@ -617,6 +677,7 @@ section.section {
 }
 
 .btn-get-started {
+<<<<<<< HEAD
     font-size: 15px;
     font-weight: bold;
     letter-spacing: 1px;
@@ -632,6 +693,23 @@ section.section {
 .btn-get-started:hover {
     color: #fff;
     background: #699aaa;
+=======
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 32px;
+  border-radius: 2px;
+  transition: 0.5s;
+  margin: 10px;
+  color: #fff;
+	background:rgb(172, 135, 23);
+}
+
+.btn-get-started:hover {
+	color: #fff;
+	background:rgb(207, 192, 61);
+>>>>>>> 9b6d5a02fe16cac6364ab56b7fc4cc2f425878ce
 }
 
 
